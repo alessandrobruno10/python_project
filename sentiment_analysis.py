@@ -1,7 +1,7 @@
 #importing libraries
 from textblob import TextBlob
 #defining a textual variable containing several statements
-sample_texts = ["I like programming.", "I can't stand injustice.", "I feel indifferent about documentation.", "coding is fun.", "I am frustrated with trigonometry."]
+sample_texts = ["I like programming.", "I can't stand injustice.", "I feel indifferent about documentation.", "coding is fun.", "I am frustrated with trigonometry.","Students like working on GitHub repos"]
 
 #running through all statement to extract sentiment out of them
 for text in sample_texts:
